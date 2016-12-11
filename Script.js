@@ -1,9 +1,12 @@
 var str1 = '# # # # #';
 var str2 = ' # # # # #';
 var i = 0;
-    while( i < 3 ) {
-        console.log ( str1 )
-        console.log ( str2 )
-            i++;
+    while( i < 5 ) {
+       if (i % 2 == 0) {
+        console.log(str1);
     }
-    console.log ( '# # # # #' )
+    else {
+        console.log(str2);
+    }
+    i++
+}
